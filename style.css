@@ -390,3 +390,155 @@ iframe{
     color: #b1aaaa;
     font-size: 1rem;
 }
+ 
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .navbar h1 {
+    padding-left: 0;
+    font-size: 1.6rem;
+  }
+
+  .navbar ul {
+    display: none; 
+  }
+
+  .navbar .nav-btn {
+    margin-right: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .banner {
+    height: auto;
+    padding: 80px 16px;
+    gap: 16px;
+  }
+
+  .circle-img {
+    width: 200px;
+  }
+
+  .micro-img {
+    width: 75px;
+  }
+
+  .commit {
+    top: 6px;
+    right: 14px;
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+
+  .banner-txt h2 {
+    font-size: 32px;
+  }
+
+  .banner-txt p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .banner-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .spotify-btn,
+  .subscribe-btn {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+  .about-txt h2 {
+    font-size: 2rem;
+  }
+
+  .about-txt p {
+    font-size: 0.9rem;
+  }
+
+  .achievement {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 60px;
+  }
+
+  .achievement h2 {
+    font-size: 2.2rem;
+  }
+
+
+  .choose h2 {
+    font-size: 2rem;
+  }
+
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5 {
+    padding: 30px;
+  }
+
+ 
+  .feature h2 {
+    font-size: 2rem;
+  }
+
+  .feature-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .host {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .host h3 {
+    font-size: 1.6rem;
+  }
+
+  .host p {
+    font-size: 0.95rem;
+  }
+
+  .social-icon {
+    justify-content: center;
+  }
+
+  .footer-container {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .footer-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .footer-icon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cpy-right {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
